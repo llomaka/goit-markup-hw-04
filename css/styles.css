@@ -160,6 +160,22 @@
   text-align: center;
 }
 
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-title {
   margin: 0px auto 30px auto;
   max-width: 696px;
@@ -228,6 +244,34 @@
   margin: 0px;
   font-size: 14px;
   color: var(--secondary-text-color);
+}
+
+.features-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--background-color-light);
+}
+
+.icon-antenna::before {
+  background-image: url('../images/icons.svg#icon-antenna');
+}
+
+.icon-clock::before {
+  background-image: url('../images/icons.svg#icon-clock');
+}
+
+.icon-diagram::before {
+  background-image: url('../images/icons.svg#icon-diagram');
+}
+
+.icon-astronaut::before {
+  background-image: url('../images/icons.svg#icon-astronaut');
 }
 
 /* Розділ Чем мы занимаемся */
