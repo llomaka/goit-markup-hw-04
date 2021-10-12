@@ -151,6 +151,17 @@
 .header-contacts {
   display: flex;
   margin-left: auto;
+  align-items: center;
+}
+
+.menu-icon {
+  /* display: inline-block; */
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.menu-icon:hover {
+  fill: var(--accent-color);
 }
 
 /* Головний розділ сайту */
