@@ -14,6 +14,7 @@
   --logo-color: #000000;
   --footer-logo-color: #ffffff;
   --footer-contatcs-color: rgba(255, 255, 255, 0.6);
+  --icon-color: #afb1b8;
 }
 
 .page {
@@ -327,11 +328,32 @@
 }
 
 .team-position {
-  margin: 0px;
+  margin: 0px 0px 16px 0px;
 
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
+}
+
+.team-slinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-slinks-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.team-slinks-link {
+  text-decoration: none;
+}
+
+.slinks-icon {
+  fill: var(--icon-color);
 }
 
 /* Нижній колонтитул */
