@@ -486,7 +486,8 @@
 }
 
 .btn-item:hover,
-.btn-item:active {
+.btn-item:active,
+.btn-item:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
