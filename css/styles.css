@@ -346,14 +346,17 @@
   align-items: center;
   width: 44px;
   height: 44px;
+  color: var(--icon-color);
 }
 
 .team-slinks-link {
+  padding: 12px;
   text-decoration: none;
+  color: inherit;
 }
 
 .slinks-icon {
-  fill: var(--icon-color);
+  fill: currentColor;
 }
 
 /* Нижній колонтитул */
